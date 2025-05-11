@@ -19,4 +19,4 @@ A web-based **Mother's Day Card Generator** that allows users to:
 
 ## **How to Use**
 1. Go on this URL to use
-   URL : 
+   URL : https://progad.github.io/Mothers-Day-card-generator/
