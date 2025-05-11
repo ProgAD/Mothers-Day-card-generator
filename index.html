@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mother's Day Card Generator</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Digital Mother's Day Card</h1>
+
+  <div class="container">
+    <!-- Form Section -->
+    <div class="form">
+      <label>Name:</label>
+      <input type="text" id="nameInput" placeholder="Your name"/>
+
+      <label>Message:</label>
+      <textarea id="messageInput" placeholder="Your message to mom"></textarea>
+
+      <label>Upload Photo:</label>
+      <input type="file" id="imageInput" accept="image/*"/>
+
+      <button id="downloadBtn">Download Card</button>
+    </div>
+
+    <!-- Card Preview -->
+    <div id="cardPreview">
+      <h2 class="title">Happy Mother's Day!</h2>
+      <div class="photo-frame">
+        <img id="previewImage" src="" alt="Photo Preview" />
+      </div>
+      <p id="previewMessage" class="message">Your message will appear here.</p>
+      <p id="previewName" class="signature">- Your name</p>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</body>
+</html>
